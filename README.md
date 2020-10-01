@@ -2,6 +2,8 @@
 
 I am building a text editor. I'm then going to use that text editor to build further variations of this text editor. Meta dogfooding. Work on an open source business model. The code is free if you compile it yourself. Support through: github, patreon, donations, librepay, kofi and coffee.
 
+I am doing this so I can learn to code something I want to code and to practice my github.
+
 Future development ideas will include:
 * code mode // writer mode
 * mindfulness, privacy, speed and security built in
