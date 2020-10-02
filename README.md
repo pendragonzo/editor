@@ -1,4 +1,4 @@
-# editor
+# peditor (python-editor)
 
 ![hacktober-shitfest](https://img.shields.io/github/hacktoberfest/2020/github/hub?label=shitoberfest&logo=digitalocean&logoColor=7a5901)
 
