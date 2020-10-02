@@ -11,4 +11,5 @@ Future development ideas will include:
 * mindfulness, privacy, speed and security built in
 * a calm app
 * unique typeface for each mode
+* with ligatures
 * UX/UI considerations from the outset
