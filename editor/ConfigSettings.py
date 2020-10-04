@@ -1,3 +1,5 @@
+from .ScrollBar import Scrollbar
+
 class Connect:
 	def __init__(self, pad):
 		self.pad = pad
@@ -5,4 +7,5 @@ class Connect:
 
 
 	def modules_connections(self):
+		Scrollbar(self.pad)
 		return
