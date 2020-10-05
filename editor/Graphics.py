@@ -1,5 +1,5 @@
-try:
-	import Tkinter as Tkinter
+# try:
+import tkinter as tkinter
 
-except:
-	import tkinter as Tkinter
+# except:
+# 	import Tkinter as tkinter

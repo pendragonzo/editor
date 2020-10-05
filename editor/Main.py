@@ -1,4 +1,5 @@
-from .Graphics import Tkinter as tk
+# from .Graphics import Tkinter as tk
+from .Graphics import tkinter as tk
 from .TextPad import TextPad
 
 class TextPad_Window(tk.Tk):
