@@ -1,3 +1,7 @@
-https://www.bitforestinfo.com/2017/05/python-tkinter-tutorials-complete-and-ultimate-series-of-creating-a-rich-features-text-editor.html
+Bad --> https://www.bitforestinfo.com/2017/05/python-tkinter-tutorials-complete-and-ultimate-series-of-creating-a-rich-features-text-editor.html
 
-https://www.codespeedy.com/create-a-text-editor-in-python/
+V0.1 --> https://www.codespeedy.com/create-a-text-editor-in-python/
+
+https://wiki.wxpython.org/Create a simple text editor (Phoenix)
+
+https://www.instructables.com/Create-a-Simple-Python-Text-Editor/
