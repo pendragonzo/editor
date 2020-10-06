@@ -13,3 +13,5 @@ Future development ideas will include:
 * unique typeface for each mode
 * with ligatures
 * UX/UI considerations from the outset
+
+Unless I can't be bothered. Because I have the brain of a magpie. So that's a thing.
