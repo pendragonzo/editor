@@ -14,10 +14,10 @@ class TextEditor:
     self.root = root
 
     # Title of the window
-    self.root.title("TEXT EDITOR")
+    self.root.title("Peditor Text Editor")
 
     # Window Geometry
-    self.root.geometry("1200x700+200+150")
+    self.root.geometry("1000x600+100+0")
 
     # Initializing filename
     self.filename = None
@@ -29,7 +29,7 @@ class TextEditor:
     self.status = StringVar()
 
     # Creating Titlebar
-    self.titlebar = Label(self.root,textvariable=self.title,font=("times new roman",15,"bold"),bd=2,relief=GROOVE)
+    self.titlebar = Label(self.root,textvariable=self.title,font=("helvetica",14),bd=2,relief=GROOVE)
 
     # Packing Titlebar to root window
     self.titlebar.pack(side=TOP,fill=BOTH)
@@ -38,22 +38,22 @@ class TextEditor:
     self.settitle()
 
     # Creating Statusbar
-    self.statusbar = Label(self.root,textvariable=self.status,font=("times new roman",15,"bold"),bd=2,relief=GROOVE)
+    self.statusbar = Label(self.root,textvariable=self.status,font=("helvetica light",12),bd=2,relief=GROOVE)
 
     # Packing status bar to root window
     self.statusbar.pack(side=BOTTOM,fill=BOTH)
 
     # Initializing Status
-    self.status.set("Welcome To Text Editor")
+    self.status.set("v0.3.0")
 
     # Creating Menubar
-    self.menubar = Menu(self.root,font=("times new roman",15,"bold"),activebackground="skyblue")
+    self.menubar = Menu(self.root,font=("helvetica",14),activebackground="skyblue")
 
     # Configuring menubar on root window
     self.root.config(menu=self.menubar)
 
     # Creating File Menu
-    self.filemenu = Menu(self.menubar,font=("times new roman",12,"bold"),activebackground="skyblue",tearoff=0)
+    self.filemenu = Menu(self.menubar,font=("helvetica light",14),activebackground="skyblue",tearoff=0)
 
     # Adding New file Command
     self.filemenu.add_command(label="New",accelerator="Ctrl+N",command=self.newfile)
@@ -77,7 +77,7 @@ class TextEditor:
     self.menubar.add_cascade(label="File", menu=self.filemenu)
 
     # Creating Edit Menu
-    self.editmenu = Menu(self.menubar,font=("times new roman",12,"bold"),activebackground="skyblue",tearoff=0)
+    self.editmenu = Menu(self.menubar,font=("helvetica light",14),activebackground="skyblue",tearoff=0)
 
     # Adding Cut text Command
     self.editmenu.add_command(label="Cut",accelerator="Ctrl+X",command=self.cut)
@@ -98,7 +98,7 @@ class TextEditor:
     self.menubar.add_cascade(label="Edit", menu=self.editmenu)
 
     # Creating Help Menu
-    self.helpmenu = Menu(self.menubar,font=("times new roman",12,"bold"),activebackground="skyblue",tearoff=0)
+    self.helpmenu = Menu(self.menubar,font=("helvetica light",14),activebackground="skyblue",tearoff=0)
 
     # Adding About Command
     self.helpmenu.add_command(label="About",command=self.infoabout)
@@ -110,7 +110,7 @@ class TextEditor:
     scrol_y = Scrollbar(self.root,orient=VERTICAL)
 
     # Creating Text Area
-    self.txtarea = Text(self.root,yscrollcommand=scrol_y.set,font=("times new roman",15,"bold"),state="normal",relief=GROOVE)
+    self.txtarea = Text(self.root,yscrollcommand=scrol_y.set,font=("league mono light",14),state="normal",relief=GROOVE)
 
     # Packing scrollbar to root window
     scrol_y.pack(side=RIGHT,fill=Y)
@@ -312,7 +312,7 @@ class TextEditor:
 
   # Defining About Funtion
   def infoabout(self):
-    messagebox.showinfo("About Text Editor","A Simple Text Editor\nCreated using Python.")
+    messagebox.showinfo("About Peditor","A very simple Text Editor\nBuilt in Python, developed in Peditor.\nBy @pendragonzo")
 
   # Defining shortcuts Funtion
   def shortcuts(self):
@@ -352,3 +352,6 @@ TextEditor(root)
 
 # Root Window Looping
 root.mainloop()
+
+
+
