@@ -158,7 +158,7 @@ class TextEditor:
     # Exception handling
     try:
       # Asking for file to open
-      self.filename = filedialog.askopenfilename(title = "Select file",filetypes = (("All Files","*.*"),("Text Files","*.txt"),("Python Files","*.py")))
+      self.filename = filedialog.askopenfilename(title = "Select file",filetypes = (("All Files","*.*"),("Text Files","*.txt"),("Python Files","*.py"),("C Files","*.c")))
 
       # checking if filename not none
       if self.filename:
@@ -352,6 +352,7 @@ TextEditor(root)
 
 # Root Window Looping
 root.mainloop()
+
 
 
 
